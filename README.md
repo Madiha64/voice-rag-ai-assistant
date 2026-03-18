@@ -6,10 +6,10 @@ An AI-powered assistant that combines Chat, Document Question Answering, and Voi
 
 ##  Features
 
-- 💬 Chat AI (Llama3 via Ollama)
-- 📄 Document RAG (Ask questions from PDF)
-- 🎤 Voice Assistant (Speech → Text → AI Response)
-- 🧠 Reduced hallucination using RAG + Top-K retrieval
+- Chat AI (Llama3 via Ollama)
+- Document RAG (Ask questions from PDF)
+-  Voice Assistant (Speech → Text → AI Response)
+-  Reduced hallucination using RAG + Top-K retrieval
 
 ---
 
@@ -24,7 +24,7 @@ An AI-powered assistant that combines Chat, Document Question Answering, and Voi
 
 ---
 
-## 🧠 How it Works
+##  How it Works
 
 1. Upload PDF → split into chunks  
 2. Convert text into embeddings  
@@ -35,7 +35,7 @@ An AI-powered assistant that combines Chat, Document Question Answering, and Voi
 
 ---
 
-## 🎤 Voice Pipeline
+##  Voice Pipeline
 
 Speech → FFmpeg → WAV → SpeechRecognition → LLM → Answer
 
