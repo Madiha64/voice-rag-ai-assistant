@@ -5,15 +5,8 @@ An AI-powered multi-agent assistant built using **LangChain, LangGraph, and MCP-
 The system combines conversational AI, document-based question answering, web search, tool execution, vision-related tasks, and voice interaction in a unified agentic workflow.
 
 ---
+## 📋 Project Overview
 
-##  Project Overview
-
-<<<<<<< HEAD
-- Chat AI (Llama3 via Ollama)
-- Document RAG (Ask questions from PDF)
--  Voice Assistant (Speech → Text → AI Response)
--  Reduced hallucination using RAG + Top-K retrieval
-=======
 This project demonstrates how multiple AI capabilities can be coordinated through an **agentic architecture**.
 
 Instead of sending every user query directly to one LLM, the system uses:
@@ -23,6 +16,8 @@ Instead of sending every user query directly to one LLM, the system uses:
 - **MCP-style architecture** for connecting the main agent system with external tools/services
 - **Ollama** for local LLM inference
 - **Streamlit** for the user interface
+
+The planner analyzes the user's request and routes it to the appropriate agent.
 
 ---
 
@@ -41,12 +36,7 @@ Instead of sending every user query directly to one LLM, the system uses:
 - 🤖 Local LLM inference using Ollama
 
 ---
-
-<<<<<<< HEAD
-##  How it Works
-=======
 # 🏗️ System Architecture
->>>>>>> cd6a45a (Update README documentation)
 
 ```text
                          ┌─────────────────────┐
@@ -103,11 +93,11 @@ LangGraph is used to control the multi-agent workflow.
 
 The graph contains nodes for:
 
-Planner
-Chat Agent
-RAG Agent
-Web Agent
-Tool Agent
+1. Planner
+2. Chat Agent
+3. RAG Agent
+4. Web Agent
+5. Tool Agent
 ```text
 User Query
      │
@@ -127,14 +117,7 @@ User Query
 
 ```text
 ---
-
-<<<<<<< HEAD
-##  Voice Pipeline
-=======
 ## 🔌 MCP-style Tool Architecture
->>>>>>> cd6a45a (Update README documentation)
-
-
 The project uses a client/server pattern for connecting agents with external capabilities.
 ```text
 LangGraph
@@ -155,12 +138,6 @@ MCP Server
 ---
 
 ## 📄 Document RAG
-
-<<<<<<< HEAD
-```bash
-pip install -r requirements.txt
-streamlit run main_app.py
-=======
 The Document RAG pipeline allows users to upload PDF documents and ask questions about their contents.
 
 ### Workflow
@@ -190,9 +167,6 @@ LLM
     │
     ▼
 Grounded Answer
-
-
-Then:
 
 ```text
 ---
@@ -350,8 +324,6 @@ Through this project, the following concepts are demonstrated:
 ---
 
 ## ⭐ Project Highlights
-## ⭐ Project Highlights
-
 ### Core Architecture
 
 ```text
@@ -361,23 +333,20 @@ LangGraph
      +
 MCP-style Client/Server
      +
-RAG
+    RAG
      +
 Local LLM
      +
-Voice
+  Voice
      +
 Web Search
      +
-Tools
-
-Then:
+   Tools
 
 ```text
 ---
 
 ## Author
-
 Developed as an AI/ML engineering project focused on:
 
 Generative AI
@@ -390,6 +359,17 @@ Multi-Agent Systems
 
 ## Keywords
 
-LangChain LangGraph MCP Agentic AI Multi-Agent AI RAG LLM Ollama FAISS Streamlit Generative AI Voice AI Web Search AI Agents
+LangChain
+LangGraph
+MCP Agentic
+AI Multi-Agent AI
+RAG
+LLM Ollama
+FAISS
+Streamlit
+Generative AI
+Voice AI
+Web Search AI Agents
+
 ---
->>>>>>> cd6a45a (Update README documentation)
+
