@@ -87,7 +87,8 @@ The planner analyzes the user's request and routes it to the appropriate agent.
                     └─────────┘       └─────────┘       └─────────┘
 ```text
 ---
-##LangGraph Orchestration
+
+## LangGraph Orchestration
 
 LangGraph is used to control the multi-agent workflow.
 
@@ -170,7 +171,7 @@ Grounded Answer
 
 ```text
 ---
-##Technologies
+## Technologies
 
 -PyPDF
 
@@ -185,7 +186,7 @@ Grounded Answer
 The RAG system is designed to answer questions using retrieved document context rather than relying only on general LLM knowledge
 ```text
 ---
-## 🔎 Web Search Agent
+##  Web Search Agent
 
 The Web Agent provides external information retrieval.
 
@@ -215,7 +216,7 @@ Final Answer
 ```text
 ---
 
-## 🧮 Tool Agent
+##  Tool Agent
 The Tool Agent handles calculation-related requests.
 
 ### Example
@@ -300,7 +301,7 @@ The project focuses on separating:
 - External services
 - LLM response generation
 ---
-##📚 Learning Outcomes
+## 📚 Learning Outcomes
 
 Through this project, the following concepts are demonstrated:
 
